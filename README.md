@@ -54,11 +54,11 @@
 # clone the repository
 git clone git@github.com:themefisher/timer-hugo.git
 
-# setup project
-$ npm run project-setup
+# cd in the project directory
+$ cd timer-hugo/exampleSite/
 
 # Start local dev server
-$ npm run dev
+$ hugo server --themesDir ../..
 ```
 
 Or Check out [Full Documentation](https://docs.gethugothemes.com/timer/?ref=github).
